@@ -1,0 +1,24 @@
+{"id": "q01", "query": "وي پي ان", "relevant_ids": ["vpn"]}
+{"id": "q02", "query": "بازيابي گذرواژه", "relevant_ids": ["password"]}
+{"id": "q03", "query": "مرخصي", "relevant_ids": ["leave"]}
+{"id": "q04", "query": "دوركاري", "relevant_ids": ["remote"]}
+{"id": "q05", "query": "پشتيبان", "relevant_ids": ["backup"]}
+{"id": "q06", "query": "تيكت", "relevant_ids": ["tickets"]}
+{"id": "q07", "query": "رزرو اتاق جلسه", "relevant_ids": ["meeting"]}
+{"id": "q08", "query": "رسید هزینه ماموریت", "relevant_ids": ["expense"]}
+{"id": "q09", "query": "شروع همكاري", "relevant_ids": ["onboarding"]}
+{"id": "q10", "query": "30", "relevant_ids": ["retention"]}
+{"id": "q11", "query": "كليد", "relevant_ids": ["api"]}
+{"id": "q12", "query": "گزارش اختلال سرویس", "relevant_ids": ["incident"]}
+{"id": "q13", "query": "بردارسازي", "relevant_ids": ["embedding"]}
+{"id": "q14", "query": "قطعه بندي", "relevant_ids": ["chunking"]}
+{"id": "q15", "query": "ارجاع منبع", "relevant_ids": ["citation"]}
+{"id": "q16", "query": "ارزيابي بازيابي", "relevant_ids": ["evaluation"]}
+{"id": "q17", "query": "هَمپوشاني", "relevant_ids": ["chunking"]}
+{"id": "q18", "query": "یادآوری اسناد مرتبط", "relevant_ids": ["evaluation"]}
+{"id": "q19", "query": "تیکت مشکل رایانه", "relevant_ids": ["tickets"]}
+{"id": "q20", "query": "بازیابی فایل حذف شده", "relevant_ids": ["backup"]}
+{"id": "q21", "query": "ارزيابي و ارجاع", "relevant_ids": ["evaluation", "citation"]}
+{"id": "q22", "query": "حقوق و پاداش", "relevant_ids": []}
+{"id": "q23", "query": "رستوران ایتالیایی", "relevant_ids": []}
+{"id": "q24", "query": "گزارش قیمت سهام", "relevant_ids": []}

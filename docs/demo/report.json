@@ -1,0 +1,726 @@
+{
+  "tool_version": "0.1.0",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "k": 3,
+  "passages": 16,
+  "results": {
+    "raw": {
+      "answerable_queries": 21,
+      "unanswerable_queries": 3,
+      "mean_recall": 0.5476190476190477,
+      "mrr": 0.5714285714285714,
+      "mean_ndcg": 0.5530070091793076,
+      "empty_result_rate_unanswerable": 0.3333333333333333,
+      "queries": [
+        {
+          "id": "q01",
+          "query": "وي پي ان",
+          "relevant_ids": [
+            "vpn"
+          ],
+          "retrieved_ids": [
+            "vpn"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q02",
+          "query": "بازيابي گذرواژه",
+          "relevant_ids": [
+            "password"
+          ],
+          "retrieved_ids": [
+            "password"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q03",
+          "query": "مرخصي",
+          "relevant_ids": [
+            "leave"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q04",
+          "query": "دوركاري",
+          "relevant_ids": [
+            "remote"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q05",
+          "query": "پشتيبان",
+          "relevant_ids": [
+            "backup"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q06",
+          "query": "تيكت",
+          "relevant_ids": [
+            "tickets"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q07",
+          "query": "رزرو اتاق جلسه",
+          "relevant_ids": [
+            "meeting"
+          ],
+          "retrieved_ids": [
+            "meeting"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q08",
+          "query": "رسید هزینه ماموریت",
+          "relevant_ids": [
+            "expense"
+          ],
+          "retrieved_ids": [
+            "expense"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q09",
+          "query": "شروع همكاري",
+          "relevant_ids": [
+            "onboarding"
+          ],
+          "retrieved_ids": [
+            "onboarding",
+            "remote",
+            "incident"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q10",
+          "query": "30",
+          "relevant_ids": [
+            "retention"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q11",
+          "query": "كليد",
+          "relevant_ids": [
+            "api"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q12",
+          "query": "گزارش اختلال سرویس",
+          "relevant_ids": [
+            "incident"
+          ],
+          "retrieved_ids": [
+            "incident",
+            "api",
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q13",
+          "query": "بردارسازي",
+          "relevant_ids": [
+            "embedding"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q14",
+          "query": "قطعه بندي",
+          "relevant_ids": [
+            "chunking"
+          ],
+          "retrieved_ids": [
+            "chunking",
+            "embedding"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q15",
+          "query": "ارجاع منبع",
+          "relevant_ids": [
+            "citation"
+          ],
+          "retrieved_ids": [
+            "citation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q16",
+          "query": "ارزيابي بازيابي",
+          "relevant_ids": [
+            "evaluation"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q17",
+          "query": "هَمپوشاني",
+          "relevant_ids": [
+            "chunking"
+          ],
+          "retrieved_ids": [],
+          "metrics": {
+            "recall": 0.0,
+            "reciprocal_rank": 0.0,
+            "ndcg": 0.0
+          }
+        },
+        {
+          "id": "q18",
+          "query": "یادآوری اسناد مرتبط",
+          "relevant_ids": [
+            "evaluation"
+          ],
+          "retrieved_ids": [
+            "evaluation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q19",
+          "query": "تیکت مشکل رایانه",
+          "relevant_ids": [
+            "tickets"
+          ],
+          "retrieved_ids": [
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q20",
+          "query": "بازیابی فایل حذف شده",
+          "relevant_ids": [
+            "backup"
+          ],
+          "retrieved_ids": [
+            "backup",
+            "evaluation",
+            "citation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q21",
+          "query": "ارزيابي و ارجاع",
+          "relevant_ids": [
+            "evaluation",
+            "citation"
+          ],
+          "retrieved_ids": [
+            "citation",
+            "tickets",
+            "onboarding"
+          ],
+          "metrics": {
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "ndcg": 0.6131471927654584
+          }
+        },
+        {
+          "id": "q22",
+          "query": "حقوق و پاداش",
+          "relevant_ids": [],
+          "retrieved_ids": [
+            "tickets",
+            "citation",
+            "onboarding"
+          ],
+          "metrics": null
+        },
+        {
+          "id": "q23",
+          "query": "رستوران ایتالیایی",
+          "relevant_ids": [],
+          "retrieved_ids": [],
+          "metrics": null
+        },
+        {
+          "id": "q24",
+          "query": "گزارش قیمت سهام",
+          "relevant_ids": [],
+          "retrieved_ids": [
+            "incident",
+            "tickets",
+            "remote"
+          ],
+          "metrics": null
+        }
+      ]
+    },
+    "normalized": {
+      "answerable_queries": 21,
+      "unanswerable_queries": 3,
+      "mean_recall": 1.0,
+      "mrr": 1.0,
+      "mean_ndcg": 1.0,
+      "empty_result_rate_unanswerable": 0.3333333333333333,
+      "queries": [
+        {
+          "id": "q01",
+          "query": "وي پي ان",
+          "relevant_ids": [
+            "vpn"
+          ],
+          "retrieved_ids": [
+            "vpn"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q02",
+          "query": "بازيابي گذرواژه",
+          "relevant_ids": [
+            "password"
+          ],
+          "retrieved_ids": [
+            "password",
+            "evaluation",
+            "backup"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q03",
+          "query": "مرخصي",
+          "relevant_ids": [
+            "leave"
+          ],
+          "retrieved_ids": [
+            "leave"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q04",
+          "query": "دوركاري",
+          "relevant_ids": [
+            "remote"
+          ],
+          "retrieved_ids": [
+            "remote"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q05",
+          "query": "پشتيبان",
+          "relevant_ids": [
+            "backup"
+          ],
+          "retrieved_ids": [
+            "backup"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q06",
+          "query": "تيكت",
+          "relevant_ids": [
+            "tickets"
+          ],
+          "retrieved_ids": [
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q07",
+          "query": "رزرو اتاق جلسه",
+          "relevant_ids": [
+            "meeting"
+          ],
+          "retrieved_ids": [
+            "meeting"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q08",
+          "query": "رسید هزینه ماموریت",
+          "relevant_ids": [
+            "expense"
+          ],
+          "retrieved_ids": [
+            "expense"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q09",
+          "query": "شروع همكاري",
+          "relevant_ids": [
+            "onboarding"
+          ],
+          "retrieved_ids": [
+            "onboarding",
+            "remote",
+            "incident"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q10",
+          "query": "30",
+          "relevant_ids": [
+            "retention"
+          ],
+          "retrieved_ids": [
+            "retention"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q11",
+          "query": "كليد",
+          "relevant_ids": [
+            "api"
+          ],
+          "retrieved_ids": [
+            "api"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q12",
+          "query": "گزارش اختلال سرویس",
+          "relevant_ids": [
+            "incident"
+          ],
+          "retrieved_ids": [
+            "incident",
+            "api",
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q13",
+          "query": "بردارسازي",
+          "relevant_ids": [
+            "embedding"
+          ],
+          "retrieved_ids": [
+            "embedding"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q14",
+          "query": "قطعه بندي",
+          "relevant_ids": [
+            "chunking"
+          ],
+          "retrieved_ids": [
+            "chunking",
+            "embedding"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q15",
+          "query": "ارجاع منبع",
+          "relevant_ids": [
+            "citation"
+          ],
+          "retrieved_ids": [
+            "citation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q16",
+          "query": "ارزيابي بازيابي",
+          "relevant_ids": [
+            "evaluation"
+          ],
+          "retrieved_ids": [
+            "evaluation",
+            "backup",
+            "citation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q17",
+          "query": "هَمپوشاني",
+          "relevant_ids": [
+            "chunking"
+          ],
+          "retrieved_ids": [
+            "chunking"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q18",
+          "query": "یادآوری اسناد مرتبط",
+          "relevant_ids": [
+            "evaluation"
+          ],
+          "retrieved_ids": [
+            "evaluation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q19",
+          "query": "تیکت مشکل رایانه",
+          "relevant_ids": [
+            "tickets"
+          ],
+          "retrieved_ids": [
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q20",
+          "query": "بازیابی فایل حذف شده",
+          "relevant_ids": [
+            "backup"
+          ],
+          "retrieved_ids": [
+            "backup",
+            "evaluation",
+            "citation"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q21",
+          "query": "ارزيابي و ارجاع",
+          "relevant_ids": [
+            "evaluation",
+            "citation"
+          ],
+          "retrieved_ids": [
+            "citation",
+            "evaluation",
+            "tickets"
+          ],
+          "metrics": {
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "ndcg": 1.0
+          }
+        },
+        {
+          "id": "q22",
+          "query": "حقوق و پاداش",
+          "relevant_ids": [],
+          "retrieved_ids": [
+            "tickets",
+            "citation",
+            "onboarding"
+          ],
+          "metrics": null
+        },
+        {
+          "id": "q23",
+          "query": "رستوران ایتالیایی",
+          "relevant_ids": [],
+          "retrieved_ids": [],
+          "metrics": null
+        },
+        {
+          "id": "q24",
+          "query": "گزارش قیمت سهام",
+          "relevant_ids": [],
+          "retrieved_ids": [
+            "incident",
+            "tickets",
+            "remote"
+          ],
+          "metrics": null
+        }
+      ]
+    }
+  },
+  "dataset_note": "Author-created synthetic Persian passages and queries. Orthographic stress test, not a held-out or real-world benchmark.",
+  "corpus_sha256": "a97e5b80e28ae2ee7f855f8379190121648ce4f997e096dbac97932a2eb75107",
+  "queries_sha256": "8e7691b2261c0fb7fdc2c187390320f8f8c709fac246b492795d6882d55e05bf"
+}

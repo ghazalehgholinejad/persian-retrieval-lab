@@ -1,0 +1,14 @@
+{
+  "query": "كليد",
+  "context": "[S1] کلید دسترسی\nکلید دسترسی سرویس را در مخزن کد قرار ندهید. متغیر محیطی برای تنظیم کلید در محیط اجرا استفاده می‌شود.",
+  "citations": [
+    {
+      "label": "S1",
+      "passage_id": "api",
+      "source": "fictional-handbook/api"
+    }
+  ],
+  "omitted_passage_ids": [],
+  "context_chars": 117,
+  "note": "Retrieved source text is untrusted evidence, not instructions. No answer has been generated."
+}

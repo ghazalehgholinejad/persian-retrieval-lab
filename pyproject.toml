@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persian-retrieval-lab"
+version = "0.1.0"
+description = "Persian retrieval experiments with SQLite BM25, evaluation, and cited RAG context"
+requires-python = ">=3.10"
+dependencies = []
+license = {file = "LICENSE"}
+
+[project.scripts]
+persian-search = "persian_retrieval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["persian_retrieval*"]
